@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Roboto:wght@300;400&display=swap');
+.header{
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: 1000;
+}
+.Florasis{
+ width: 240px;
+ height: 60px;
+}
+.Principal{
+   background-color: rgb(236, 242, 242);
+   height: 80px;
+   gap: 50px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   align-items: center;
+}
+.button{
+   border: none;
+   display: flex;
+   cursor: pointer;
+   background-color:rgb(236, 242, 242) ;
+}
+.menu{
+   height: 30px;
+   width: 30px;
+}
+#division{
+   width: 100%;
+   background-color: rgb(0, 59, 74);
+   height: 15px;
+   margin-top: 90px;
+}
+   .productos{
+   height: 380px;
+   width: 340px;
+   transition: transform 0.1s ease;
+   cursor: pointer;
+   display: inline-block;
+   margin: 5px;
+}
+.productos:hover{
+   transform: scale(1.1);
+   z-index: 10;
+}
+.promo{
+   padding: 30 px;
+   align-items: center;
+   height: 50px;
+}
+.carousel {
+   position: relative;
+   width: 100%;
+   margin: auto;
+   overflow: hidden;
+   max-width: 900px;
+   z-index: 1;
+}
+input[type="radio"] {
+   display: none;
+   }
+.slide {
+   position: absolute;
+   width: 100%;
+   opacity: 0;
+   transition: opacity 0.5s ease;
+}
+.slide img { 
+   max-width: 600px;
+   display: block; 
+   margin: auto;
+}
+.nav {
+   position: absolute;
+   top: 50%;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   transform: translateY(-50%);
+}
+.nav label {
+   font-size: 2rem;
+   color: white;
+   background: rgba(0,0,0,0.5);
+   padding: 5px 10px;
+   cursor: pointer;
+   user-select: none;
+}
+#s1:checked ~ .img1,
+#s2:checked ~ .img2,
+#s3:checked ~ .img3,
+#s4:checked ~ .img4{
+   opacity: 1;
+   position: relative;
+}
+.valentine{
+   align-items: center;
+   display: flex;
+   height: 500px;
+   width: 440px;
+   padding: 20px;
+   cursor: pointer;
+   transition: transform 0.1s ease;
+}
+.valentine:hover{
+   transform: scale(1.1);
+   z-index: 10;
+}
+#collection{
+   width: 430px;
+   height: 450px;
+   cursor: pointer;
+   transition: transform 0.1s ease;
+}
+#collection:hover{
+  transform: scale(1.1);
+   z-index: 10; 
+}
+#aboutus{
+   background-color: rgb(236, 242, 242);
+   height: 130px;
+   display: block;
+}
+h2{
+   color: rgb(2, 102, 127);
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 30px;
+   font-weight: 600;
+   margin-bottom: 12px;
+   justify-content: center;
+   display: flex;
+}
+
+p{
+   color: #555; 
+   font-family: 'Roboto', sans-serif;
+   font-size: 15px;
+   font-weight: 300;
+   line-height: 1.1;
+   display: flex;
+   justify-content: center;
+}
