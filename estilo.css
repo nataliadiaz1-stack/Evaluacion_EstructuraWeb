@@ -34,7 +34,7 @@
    height: 15px;
    margin-top: 90px;
 }
-   .productos{
+.productos{
    height: 380px;
    width: 340px;
    transition: transform 0.1s ease;
@@ -67,7 +67,8 @@ input[type="radio"] {
    width: 100%;
    opacity: 0;
    transition: opacity 0.5s ease;
-}
+   height: auto;
+   }
 .slide img { 
    max-width: 600px;
    display: block; 
@@ -80,7 +81,7 @@ input[type="radio"] {
    display: flex;
    justify-content: space-between;
    transform: translateY(-50%);
-}
+   }
 .nav label {
    font-size: 2rem;
    color: white;
@@ -88,7 +89,7 @@ input[type="radio"] {
    padding: 5px 10px;
    cursor: pointer;
    user-select: none;
-}
+   }
 #s1:checked ~ .img1,
 #s2:checked ~ .img2,
 #s3:checked ~ .img3,
