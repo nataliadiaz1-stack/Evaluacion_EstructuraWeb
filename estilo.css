@@ -34,7 +34,7 @@
    height: 15px;
    margin-top: 90px;
 }
-.productos{
+   .productos{
    height: 380px;
    width: 340px;
    transition: transform 0.1s ease;
@@ -67,8 +67,7 @@ input[type="radio"] {
    width: 100%;
    opacity: 0;
    transition: opacity 0.5s ease;
-   height: auto;
-   }
+}
 .slide img { 
    max-width: 600px;
    display: block; 
@@ -81,21 +80,26 @@ input[type="radio"] {
    display: flex;
    justify-content: space-between;
    transform: translateY(-50%);
-   }
+}
 .nav label {
-   font-size: 2rem;
-   color: white;
-   background: rgba(0,0,0,0.5);
-   padding: 5px 10px;
-   cursor: pointer;
-   user-select: none;
-   }
+display: none;
+}
 #s1:checked ~ .img1,
 #s2:checked ~ .img2,
 #s3:checked ~ .img3,
 #s4:checked ~ .img4{
    opacity: 1;
    position: relative;
+}
+#s1:checked ~ .nav label.prev[for="s4"], 
+#s1:checked ~ .nav label.next[for="s2"], 
+#s2:checked ~ .nav label.prev[for="s1"], 
+#s2:checked ~ .nav label.next[for="s3"], 
+#s3:checked ~ .nav label.prev[for="s2"], 
+#s3:checked ~ .nav label.next[for="s4"], 
+#s4:checked ~ .nav label.prev[for="s3"], 
+#s4:checked ~ .nav label.next[for="s1"] {
+   display: block; 
 }
 .valentine{
    align-items: center;
@@ -115,6 +119,8 @@ input[type="radio"] {
    height: 450px;
    cursor: pointer;
    transition: transform 0.1s ease;
+   margin-left: 50px;
+   margin-right: 30px
 }
 #collection:hover{
   transform: scale(1.1);
@@ -134,7 +140,6 @@ h2{
    justify-content: center;
    display: flex;
 }
-
 p{
    color: #555; 
    font-family: 'Roboto', sans-serif;
@@ -143,4 +148,18 @@ p{
    line-height: 1.1;
    display: flex;
    justify-content: center;
+}
+#h3{
+   justify-content: center;
+   display: flex;
+   font-size: 20px;
+}
+.pie-pagina {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 20px;
+}
+.columna-footer {
+    width: 30%;
 }

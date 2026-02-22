@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Roboto:wght@300;400&display=swap');
+.header{
+   top: 0;
+   width: 100%;
+   background-color: rgb(236, 242, 242);
+   height: 120px;
+   display:flex;
+}
+.logo{
+    height: 50px;
+    width: auto;
+    justify-content: center;
+    display: flex;
+}
+h2{
+   color: rgb(2, 102, 127);
+   font-family: 'Cormorant Garamond', serif;
+   font-size: 30px;
+   font-weight: 600;
+   margin-bottom: 12px;
+   justify-content: center;
+   display: flex;
+}
+p{
+   color: #555; 
+   font-family: 'Roboto', sans-serif;
+   font-size: 15px;
+   font-weight: 300;
+   line-height: 1.1;
+   display: flex;
+   justify-content: center;
+}
+.bloque{
+    background-color:rgb(236, 242, 242) ;
+    height: 90px;
+    width: 100%;
+    display: flex;
+}
+.flor{
+    height: 300px;
+}
+.makeup{
+    height: auto;
+    width: 350px;
+}
