@@ -1,180 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Roboto:wght@300;400&display=swap');
-body {
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    background-color: rgb(250, 250, 250);
+/* Complemento sobre Bootstrap */
+h1, h2, h3, h5 {
+  font-family: 'Cormorant Garamond', serif;
 }
 
-.contenedor {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 40px 20px;
+.text-info {
+  color: rgb(2, 102, 127) !important;
+}
+.bg-info {
+  background-color: rgb(2, 102, 127) !important;
+}
+.bg-info-subtle {
+  background-color: rgb(236, 242, 242) !important;
 }
 
-.header {
-    background-color: rgb(236, 242, 242);
-    padding: 30px 0;
-    text-align: center;
-}
-
-.logo {
-    height: 60px;
-    width: auto;
-    margin-bottom: 15px;
-}
-
-h1 {
-    color: rgb(2, 102, 127);
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 36px;
-    letter-spacing: 3px;
-    margin: 0;
-}
-
-h2 {
-    color: rgb(2, 102, 127);
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 28px;
-    font-weight: 400;
-    margin: 10px 0;
-}
-
-.historia {
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    gap: 40px; 
-    margin-bottom: 80px;
-}
-
-.texto {
-    width: 50%; 
-}
-
-.texto p {
-    display: block; 
-    text-align: left;
-    color: #555;
-    font-size: 16px;
-    line-height: 1.6;
-    margin-bottom: 20px;
-}
-
-.foto {
-    width: 50%; 
-    text-align: center;
-}
-
-.flor {
-    width: 100%; 
-    height: auto;
-    border-radius: 8px;
-}
-
-.pie {
-    display: block;
-    font-size: 13px;
-    color: #888;
-    margin-top: 10px;
-    font-style: italic;
-}
-
-.makeup{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    display: block;
-}
-
-.galeria {
-    display: flex;
-    justify-content: center; 
-    margin-bottom: 60px; 
-    width: 100%;
-}
-
-.galeria div{
-    flex: 1;
-}
-
-.titulo {
-    background-color: rgb(2, 102, 127);
-    padding: 15px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.titulo h2 {
-    color: white;
-    margin: 0;
-    font-size: 22px;
-    letter-spacing: 2px;
-}
-
-.subtitulo {
-    text-align: center;
-    color: rgb(2, 102, 127);
-    font-size: 16px;
-    margin-bottom: 40px;
-    display: block;
-}
-
-.cajas {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px;
-}
-
-.caja {
-    background-color: white;
-    border: 2px solid rgb(2, 102, 127);
-    padding: 30px 15px;
-    width: 22%; 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-}
-
-.icono {
-    height: 50px;
-    width: 50px;
-    background-color: rgb(2, 102, 127);
-    border-radius: 50%;
-    margin-bottom: 15px;
-}
-
-.caja h3 {
-    color: rgb(2, 102, 127);
-    font-size: 15px;
-    margin-bottom: 10px;
-}
-
-.caja p {
-    font-size: 13px;
-    color: #555;
-    margin-bottom: 20px;
-    display: block;
-}
-
-.enlace {
-    text-decoration: none;
-    color: rgb(2, 102, 127);
-    font-size: 12px;
-    font-weight: bold;
-    margin-top: auto; 
-}
-
-.cierre {
-    background-color: rgb(2, 102, 127);
-    padding: 20px;
-    text-align: center;
-    margin-top: 40px;
-}
-
-.cierre p {
-    color: white;
-    margin: 0;
-    font-size: 16px;
-    display: block;
+footer {
+  background-color: rgb(2, 102, 127);
+  color: white;
 }

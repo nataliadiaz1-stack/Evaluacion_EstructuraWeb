@@ -1,91 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog</title>
-    <link rel="stylesheet" href="blog.css"> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS complementario -->
+  <link rel="stylesheet" href="blog.css">
 </head>
-<body>
+<body class="bg-light">
 
-<header class="header">
-        <img class="logo" src="https://florasis.com/cdn/shop/files/Logo_7b231d94-d299-453a-9dce-96895a4b28f2.png?v=1721810418&width=1385" alt="Florasis Logo">
-        <div>
-            <h1>EDITORIAL</h1>
-            <h2>Traditional Culture</h2>
-        </div>
-    </header>
-
-    <div class="contenedor">
-        
-        <div class="historia">
-            <div class="texto">
-                <h2>The Story Of Florasis</h2>
-                <p>Florasis (花西子) was born in 2017 by the West Lake (西湖) in Hangzhou, China. A powerful muse revered by poets and painters for millennia, the West Lake remains an inspiration to this day.</p>
-                <p>Since conception, we set out to explore the wisdom of traditional beauty rituals while honoring the philosophy of Chinese aesthetics. By combining cutting-edge technology with in-depth research of nourishing floral essences, our products unify makeup and skincare. A marriage of science and art, our products are a gift and legacy to inner health, outer beauty, and ancient craftsmanship.</p>
-            </div>
-            
-            <div class="foto">
-                <img class="flor" src="https://cdn.shopifycdn.net/s/files/1/0528/2486/7015/files/1_282b683c-9a71-4314-8977-edd6eb4078fc.jpg?v=1676278698" alt="Florasis Flower">
-                <p class="pie">The name: A homage to the power of the natural world and feminity, we envision a goddess standing amongst blossoming flowers. Thus "Flora" and "Sister" became Florasis.</p>
-            </div>
-        </div>
-
-<div class="galeria">
-            <div><img class="makeup" src="https://florasis.com/cdn/shop/articles/img-1677049947501.jpg?v=1695882467&width=1000" alt="makeup1"></div>
-            <div><img class="makeup" src="https://florasis.com/cdn/shop/articles/img-1676017502973_2d8f3d6c-dc2e-4ff5-a9c9-1cce65d74a44.jpg?v=1695882633&width=1000" alt="makeup2"></div>
-            <div><img class="makeup" src="https://florasis.com/cdn/shop/articles/img-1676016160542.png?v=1676017472&width=1000" alt="makeup3"></div>
-            <div><img class="makeup" src="https://florasis.com/cdn/shop/articles/3-1676000826498_35e7376a-ca0f-417d-b8c0-55314b46c168.jpg?v=1695882719&width=6000" alt="makeup4"></div>
-        </div>
-
-<div class="bloque">
-</div>
-
-<div class="servicios">
-            
-            <div class="titulo">
-                <h2>SERVICIOS</h2>
-            </div>
-
-            <p class="subtitulo">Todos los servicios relacionados con el marketing y la comunicación que necesita tu empresa, en un único interlocutor.</p>
-
-            <div class="cajas">
-                <div class="caja">
-                    <div class="icono"></div>
-                    <h3>MARKETING</h3>
-                    <p>Alcanza un mayor número de clientes potenciales</p>
-                    <a href="#" class="enlace">MÁS INFO+</a>
-                </div>
-
-                <div class="caja">
-                    <div class="icono"></div>
-                    <h3>COMUNICACIÓN</h3>
-                    <p>Sé tú quien controle los mensajes de tu empresa</p>
-                    <a href="#" class="enlace">MÁS INFO+</a>
-                </div>
-
-                <div class="caja">
-                    <div class="icono"></div>
-                    <h3>REDES SOCIALES</h3>
-                    <p>Convierte a tu empresa en un referente social</p>
-                    <a href="#" class="enlace">MÁS INFO+</a>
-                </div>
-
-                <div class="caja">
-                    <div class="icono"></div>
-                    <h3>DISEÑO WEB</h3>
-                    <p>Haz de tu página web tu mayor canal de ventas</p>
-                    <a href="#" class="enlace">MÁS INFO+</a>
-                </div>
-            </div>
-
-            <div class="cierre">
-                <p>Packs low cost de comunicación y marketing para todas las necesidades y bolsillos.</p>
-            </div>
-
-        </div>
-
+<header class="bg-info-subtle py-3">
+  <div class="container d-flex justify-content-between align-items-center">
+    <div class="d-flex align-items-center gap-3">
+      <img src="https://florasis.com/cdn/shop/files/Logo_7b231d94-d299-453a-9dce-96895a4b28f2.png?v=1721810418&width=1385" alt="Logo" class="logo">
+      <div>
+        <h1 class="text-info fw-bold m-0">EDITORIAL</h1>
+        <h2 class="text-info fs-4">Traditional Culture</h2>
+      </div>
     </div>
+    <div class="text-center">
+      <div id="enlaces-name" class="fw-semibold text-info">Our Pages</div>
+      <div class="d-flex gap-2 mt-2">
+        <a href="index.html" class="btn btn-outline-info">Home</a>
+        <a href="services.html" class="btn btn-outline-info">Index</a>
+      </div>
+    </div>
+  </div>
+</header>
 
+<main class="container my-5">
+
+  <!-- Historia -->
+  <div class="row align-items-center mb-5">
+    <div class="col-md-6">
+      <h2 class="text-info">The Story Of Florasis</h2>
+      <p>Florasis (花西子) was born in 2017 by the West Lake (西湖) in Hangzhou, China...</p>
+      <p>Since conception, we set out to explore the wisdom of traditional beauty rituals...</p>
+    </div>
+    <div class="col-md-6 text-center">
+      <img src="https://cdn.shopifycdn.net/s/files/1/0528/2486/7015/files/1_282b683c-9a71-4314-8977-edd6eb4078fc.jpg?v=1676278698" alt="Florasis Flower" class="img-fluid rounded">
+      <p class="fst-italic text-muted mt-2">The name: A homage to the power of the natural world...</p>
+    </div>
+  </div>
+
+  <!-- Galería -->
+  <div class="row g-3 mb-5">
+    <div class="col-md-3"><img src="https://florasis.com/cdn/shop/articles/img-1677049947501.jpg?v=1695882467&width=1000" class="img-fluid rounded" alt="makeup1"></div>
+    <div class="col-md-3"><img src="https://florasis.com/cdn/shop/articles/img-1676017502973_2d8f3d6c-dc2e-4ff5-a9c9-1cce65d74a44.jpg?v=1695882633&width=1000" class="img-fluid rounded" alt="makeup2"></div>
+    <div class="col-md-3"><img src="https://florasis.com/cdn/shop/articles/img-1676016160542.png?v=1676017472&width=1000" class="img-fluid rounded" alt="makeup3"></div>
+    <div class="col-md-3"><img src="https://florasis.com/cdn/shop/articles/3-1676000826498_35e7376a-ca0f-417d-b8c0-55314b46c168.jpg?v=1695882719&width=6000" class="img-fluid rounded" alt="makeup4"></div>
+  </div>
+
+  <!-- Servicios -->
+  <h3 class="text-center text-info mb-4">Some of our makeup tutorials just for you!</h3>
+  <div class="row g-4">
+    <div class="col-md-3">
+      <div class="card border-info h-100">
+        <img src="https://florasis.com/cdn/shop/articles/banner-autumn.jpg?v=1718611518&width=2000" class="card-img-top" alt="Autumn">
+        <div class="card-body text-center">
+          <h5 class="card-title text-info">Radiate in Autumn Blooms</h5>
+          <p class="card-text">The "Autumn Blooms" look is our attempt to capture...</p>
+          <a href="#" class="btn btn-sm btn-info">Read more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card border-info h-100">
+        <img src="https://florasis.com/cdn/shop/articles/banner-summer_21b0e3e4-f6b6-4254-b907-65e66ecb5bc9.jpg?v=1717746621&width=2000" class="card-img-top" alt="Summer">
+        <div class="card-body text-center">
+          <h5 class="card-title text-info">Embody Summer Blooms</h5>
+          <p class="card-text">Blessed by the enchantment of the summer flower deities...</p>
+          <a href="#" class="btn btn-sm btn-info">Read more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card border-info h-100">
+        <img src="https://florasis.com/cdn/shop/articles/banner----3.jpg?v=1717485259&width=2000" class="card-img-top" alt="Spring">
+        <div class="card-body text-center">
+          <h5 class="card-title text-info">Embrace Spring Blooms</h5>
+          <p class="card-text">When looking for inspo for a hyper-imaginative floral look...</p>
+          <a href="#" class="btn btn-sm btn-info">Read more</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="card border-info h-100">
+        <img src="https://florasis.com/cdn/shop/articles/0_a7e4f124-a72b-493c-94f3-0672c37da736.jpg?v=1710754364&width=2000" class="card-img-top" alt="Valentine">
+        <div class="card-body text-center">
+          <h5 class="card-title text-info">Romance Meets Wilderness</h5>
+          <p class="card-text">Step into the enchanting realm of Florasis this Valentine's season...</p>
+          <a href="#" class="btn btn-sm btn-info">Read more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Promesas -->
+  <div class="row g-4 mt-5">
+    <div class="col-md-4">
+      <div class="card h-100">
+        <img src="https://cdn.shopify.com/s/files/1/0528/2486/7015/files/story-promise-1.png?v=1676976038" class="card-img-top" alt="Promise1">
+        <div class="card-body text-center">
+          <h5 class="card-title">Celebrate Tradition</h5>
+          <p class="card-text">Share and celebrate Chinese tradition and culture...</p>
+        </div>
+      </div>
+    </div>
+    <!-- Repite para las demás promesas -->
+  </div>
+
+</main>
+
+<footer class="bg-info text-white text-center py-3 mt-5">
+  <p class="mb-0">Authors: Natalia Monserrat Díaz Ruíz, Matheo Alejandro Martínez Urías</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
