@@ -34,7 +34,7 @@
    height: 15px;
    margin-top: 90px;
 }
-.productos{
+   .productos{
    height: 380px;
    width: 340px;
    transition: transform 0.1s ease;
@@ -140,7 +140,6 @@ h2{
    justify-content: center;
    display: flex;
 }
-
 p{
    color: #555; 
    font-family: 'Roboto', sans-serif;
