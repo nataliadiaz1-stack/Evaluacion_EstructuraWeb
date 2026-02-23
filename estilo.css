@@ -11,30 +11,46 @@
 }
 .Principal{
    background-color: rgb(236, 242, 242);
-   height: 80px;
+   height: 90px;
    gap: 50px;
    display: flex;
    flex-direction: row;
    justify-content: space-around;
    align-items: center;
 }
-.button{
-   border: none;
-   display: flex;
-   cursor: pointer;
-   background-color:rgb(236, 242, 242) ;
+.botones{
+    background-color: rgb(236, 242, 242); 
+    color: rgb(0, 59, 74); 
+    text-decoration: none; 
+    padding: 10px 20px; 
+    border-radius: 8px; 
+    font-weight: 600; 
+    font-size: 15px;
 }
-.menu{
-   height: 30px;
-   width: 30px;
+.bloque-enlaces{
+   display: flex;
+   flex-direction: column; 
+   align-items: center;
+   margin-top: 1%;
+}
+.enlaces{
+   display: flex;
+   gap: 15px;
+}
+#enlaces-name{
+   margin: 0 0 10px 0;
+   font-size: 18px;
+   font-family: 'Roboto', sans-serif;
+   letter-spacing: 1px;
+   color: rgb(0, 59, 74);
 }
 #division{
    width: 100%;
    background-color: rgb(0, 59, 74);
    height: 15px;
-   margin-top: 90px;
+   margin-top: 100px;
 }
-.productos{
+   .productos{
    height: 380px;
    width: 340px;
    transition: transform 0.1s ease;
@@ -140,7 +156,6 @@ h2{
    justify-content: center;
    display: flex;
 }
-
 p{
    color: #555; 
    font-family: 'Roboto', sans-serif;
